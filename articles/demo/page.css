@@ -1,0 +1,51 @@
+/* Reset some default styles for a cleaner appearance */
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Libre+Baskerville&family=Poppins&display=swap');
+
+body, h1, p, article {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Apply some basic styling to the header */
+header {
+    background-color: #e0dddd;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the article container */
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the article paragraphs */
+.article-paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Apply basic footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+.footer{
+
+    margin-bottom: 0;
+    
+    background-color: #053b22;
+    padding: 5px;
+    text-align: right;
+
+}
+.footer p{
+    color: #ccc;
+
+}
