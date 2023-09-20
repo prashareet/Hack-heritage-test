@@ -6,7 +6,21 @@ body{
 .category-heading{
     margin-left: 2vw;
 }
-
+/* Style for the button with class "goBackbutton" */
+.goBackButton{
+    position: absolute;
+    right: 4vw;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e872c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.goBackButton :hover{
+    background-color: #00b35f;
+}
 .article-card {
     
     border: 1px solid #ddd;
